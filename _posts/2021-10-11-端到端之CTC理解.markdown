@@ -97,9 +97,10 @@ $$
 #### 初始化：
 
 $$
-\alpha_1(1)&=&P(b\mid x_1) \\            \tag{1.6}
+\alpha_1(1)&=&P(b\mid x_1) \\           
 \alpha_1(2)&=&P(y^{'}\mid x_1) \\        
-\alpha_1(s)&=&0, \forall s>2
+\alpha_1(s)&=&0, \forall s>2   \\
+\tag{1.6}
 $$
 
 #### 迭代计算：
@@ -139,9 +140,9 @@ $$
 #### 初始化：
 
 $$
-\beta_T(2U+1) &=& P(y'_{2U+1}\mid x_T)\\
+\beta_T(2U+1) &=& P(y'_{2U+1}\mid x_T) \\
 \beta_T(2U) &=& P(y'_{2U}\mid x_T) \\
-\beta_T(s) &=& 0,\forall s<2U
+\beta_T(s) &=& 0,\forall s<2U \\
 \tag{1.10}
 $$
 
